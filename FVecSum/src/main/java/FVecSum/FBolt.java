@@ -9,7 +9,7 @@ import org.apache.storm.tuple.Fields;
 public class FBolt extends ShellBolt implements IRichBolt {
 
     public FBolt() {
-        super("/usr/bin/python3", "fpgabolt.py");
+        super("/usr/bin/python3", "fbolt.py");
         // this.changeChildCWD(false);
     }
 
